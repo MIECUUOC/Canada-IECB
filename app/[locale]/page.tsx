@@ -1,4 +1,10 @@
 import {useTranslations} from 'next-intl';
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'CIEB',
+    description: 'Canadian International Education Bureau',
+}
 
 export default function Home() {
   const t = useTranslations('home');
