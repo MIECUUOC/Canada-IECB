@@ -2,7 +2,7 @@ export default function Banner() {
     return (
         <div className="w-full h-52 bg-white relative">
             <img className="w-full h-full " src="./bkg.jpg" alt="image"/>
-            <div className="absolute top-6 left-16 bg-gray-800 opacity-80 w-1/2 h-3/4 xx:w-full xx:left-0 xx:mx-1 xl:left-16 2xl:left-32 3xl:left-40 xl:mx-0 xl:w-1/2 flex justify-center text-white flex-col">
+            <div className="absolute top-6 left-16 md:left-16 lg:left-24 xl:left-32 2xl:left-44 3xl:left-56 bg-gray-800 opacity-80 w-1/2 h-3/4 xx:w-full xx:left-0 xx:mx-1 2xl:right-2/3 xl:mx-0 xl:w-1/2 flex justify-center text-white flex-col">
                 <h1 className="text-4xl font-bold text-white ml-3">
                     Canada IECB
                 </h1>

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function MainContent() {
     return(
         <div className="bg-gray-100 w-full min-h-36 flex justify-center items-center">
-            <div className="container">
+            <div className="container 3xl:mx-24 2xl:mx-24 xl:mx-24 lg:mx-12 md:mx-6 sm:mx-0 xs:mx-0 xx:mx-0">
 
                 <h3 className="text-2xl text-gray-800 font-bold mb-6 mx-6">Most requested</h3>
 
