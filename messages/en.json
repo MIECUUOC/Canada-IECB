@@ -84,7 +84,9 @@
     "t6": "Health",
     "t7": "Taxes",
     "t8": "Money and finances",
-    "t9": "Business and industry"
+    "t9": "Business and industry",
+    "t10": "/en/about"
+
   },
   "MainOtherContent": {
     "t1": "As a premier semi-governmental organization, the Canadian International Education Bureau (CIEB) stands at the forefront of international education advancement in Canada. We serve as a vital bridge between Canadian educational excellence and global opportunities, fostering meaningful connections that transcend borders and cultures."
@@ -94,7 +96,8 @@
     "t2": "Home",
     "t3": "About",
     "t4": "Français",
-    "t5": "/fr"
+    "t5": "/fr",
+    "t6": "/en/about"
   },
   "Partners": {
     "t1": "Our Partners",

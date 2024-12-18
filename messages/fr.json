@@ -84,7 +84,8 @@
     "t6": "Santé",
     "t7": "Impôts",
     "t8": "Argent et finances",
-    "t9": "Entreprises et industrie"
+    "t9": "Entreprises et industrie",
+    "t10": "/fr/about"
   },
   "MainOtherContent": {
     "t1": "En tant qu'organisation semi-gouvernementale de premier plan, le Bureau canadien de l'éducation internationale (BCEI) est à l'avant-garde de l'avancement de l'éducation internationale au Canada. Nous servons de pont essentiel entre l'excellence éducative canadienne et les opportunités mondiales, favorisant des connexions significatives qui transcendent les frontières et les cultures."
@@ -94,7 +95,8 @@
     "t2": "Accueil",
     "t3": "À propos",
     "t4": "English",
-    "t5": "/en"
+    "t5": "/en",
+    "t6": "/fr/about"
   },
   "Partners": {
     "t1": "Nos partenaires",

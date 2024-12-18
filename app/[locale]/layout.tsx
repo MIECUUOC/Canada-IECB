@@ -8,14 +8,19 @@ export function generateStaticParams() {
     return [{locale: 'en'}, {locale: 'fr'}];
 }
 
-export default function LocaleLayout({
-                                         children,
-                                         params
-                                     }: {
+export default async function LocaleLayout({
+                                               children,
+                                               params
+                                           }: {
     children: React.ReactNode;
     params: { locale: string };
 }) {
-    const messages = require(`../../messages/${params.locale}.json`);
+    let messages;
+    try {
+        messages = (await import(`../../messages/${params.locale}.json`)).default;
+    } catch (error) {
+        notFound();
+    }
 
     return (
         <html lang={params.locale}>
