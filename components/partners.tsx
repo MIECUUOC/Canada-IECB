@@ -1,24 +1,28 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
 import Image from "next/image";
 
 export default function Partners() {
+    const t = useTranslations('Partners');
     const partners = [
         {
-            name: "University of Toronto",
+            name: t('t2'),
             logo: "/l001.png",
             link: "https://www.utoronto.ca"
         },
         {
-            name: "University of British Columbia",
+            name: t('t3'),
             logo: "/l002.png",
             link: "https://www.ubc.ca"
         },
         {
-            name: "McGill University",
+            name: t('t4'),
             logo: "/l003.png",
             link: "https://www.mcgill.ca"
         },
         {
-            name: "University of Alberta",
+            name: t('t5'),
             logo: "/l004.png",
             link: "https://www.ualberta.ca"
         }
@@ -28,7 +32,7 @@ export default function Partners() {
         <div className="bg-white w-full min-h-72 flex justify-center items-center py-12">
             <div className="container mx-auto px-4 md:px-6 lg:px-8 xl:px-24">
                 <div className="flex items-center mb-6">
-                    <h3 className="text-2xl text-gray-800 font-bold">Our Partners</h3>
+                    <h3 className="text-2xl text-gray-800 font-bold">{t("t1")}</h3>
                     <div className="bg-red-800 w-16 h-1 ml-4 mt-1"></div>
                 </div>
 

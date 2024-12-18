@@ -1,4 +1,9 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function HomeBanner() {
+    const t = useTranslations('HomeBanner');
     return (
         <section className="bg-gray-100 lg:py-12 lg:flex lg:justify-center">
             <div

@@ -1,4 +1,9 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function HomeList() {
+    const t = useTranslations('HomeList');
     return (
         <section className="bg-white py-8">
             <div className="container mx-auto px-4 md:px-6 lg:px-8 xl:px-24">
@@ -9,9 +14,9 @@ export default function HomeList() {
                              alt="Image"/>
 
                         <div className="mt-2">
-                            <h3 className="text-lg font-medium text-gray-700 text-left underline">About IECB</h3>
+                            <h3 className="text-lg font-medium text-gray-700 text-left underline">{t("t1")}</h3>
                             <span className="mt-1 font-medium text-gray-600 text-left block">
-                                We specialize in coordinating international educational initiatives and developing innovative programs across Canada. Our organization provides strategic support to strengthen educational partnerships and enhance global academic collaboration.
+                               {t("t2")}
                             </span>
                         </div>
                     </div>
@@ -22,9 +27,9 @@ export default function HomeList() {
                              alt="Image"/>
 
                         <div className="mt-2">
-                            <h3 className="text-lg font-medium text-gray-700 text-left underline">Quality Assurance</h3>
+                            <h3 className="text-lg font-medium text-gray-700 text-left underline">{t("t3")}</h3>
                             <span className="mt-1 font-medium text-gray-600 text-left block">
-                                Through comprehensive monitoring and evaluation processes, we maintain the highest standards in international education. Our team works with experienced educators to ensure all programs meet Canadian and global quality benchmarks.
+                                {t("t4")}
                             </span>
                         </div>
                     </div>
@@ -35,9 +40,9 @@ export default function HomeList() {
                              alt="Image"/>
 
                         <div className="mt-2">
-                            <h3 className="text-lg font-medium text-gray-700 text-left underline">Global Educational Network</h3>
+                            <h3 className="text-lg font-medium text-gray-700 text-left underline">{t("t5")}</h3>
                             <span className="mt-1 font-medium text-gray-600 text-left block">
-                                We connect Canadian educational institutions with international partners through strategic collaborations and exchange programs. Our network creates opportunities for knowledge sharing and cross-cultural learning worldwide.
+                                {t("t6")}
                             </span>
                         </div>
                     </div>
@@ -48,9 +53,9 @@ export default function HomeList() {
                              alt="Image"/>
 
                         <div className="mt-2">
-                            <h3 className="text-lg font-medium text-gray-700 text-left underline">Educational Innovation Center</h3>
+                            <h3 className="text-lg font-medium text-gray-700 text-left underline">{t("t7")}</h3>
                             <span className="mt-1 font-medium text-gray-600 text-left block">
-                                We drive educational advancement through modern technologies and innovative teaching approaches. Our center develops forward-thinking solutions and programs to keep Canadian education at the forefront of global excellence.
+                                {t("t8")}
                             </span>
                         </div>
                     </div>

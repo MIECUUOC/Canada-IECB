@@ -3,6 +3,104 @@
     "title": "Welcome to our website"
   },
   "about": {
-    "title": "About our company"
+    "mission": {
+      "title": "Our Mission & Values",
+      "content1": "The Canadian International Education Bureau (CIEB) is dedicated to advancing the quality and accessibility of international education. We work tirelessly to create meaningful connections between educational institutions worldwide.",
+      "content2": "Through our comprehensive approach to educational development and quality assurance, we help shape the future of global education while maintaining Canada's position as a leader in international education.",
+      "values": "Core Values",
+      "value1": "Excellence in Educational Standards",
+      "value2": "International Collaboration",
+      "value3": "Innovation in Education"
+    },
+    "history": {
+      "title": "Our Journey",
+      "phase1": {
+        "year": "2016",
+        "content": "Established as a semi-governmental organization to promote international education collaboration."
+      },
+      "phase2": {
+        "year": "2018",
+        "content": "Expanded our reach to include comprehensive quality assurance programs and educational innovation initiatives."
+      },
+      "phase3": {
+        "year": "2020",
+        "content": "Launched global partnership programs and digital transformation initiatives to enhance international education accessibility."
+      }
+    },
+    "team": {
+      "title": "Leadership",
+      "role1": "Educational Development",
+      "desc1": "Leading initiatives to enhance educational standards and develop innovative programs.",
+      "role2": "International Relations",
+      "desc2": "Building and maintaining relationships with educational institutions worldwide.",
+      "role3": "Quality Assurance",
+      "desc3": "Ensuring the highest standards in international education programs."
+    }
+  },
+  "Banner": {
+    "t1": "Canada IECB",
+    "t2": "Canadian International Education Bureau"
+  },
+  "EducationalImpact": {
+    "t1": "Advancing Global Education",
+    "t2": "The Canadian International Education Bureau plays a pivotal role in shaping the future of global education. Through our comprehensive monitoring systems and quality assurance frameworks, we ensure that educational institutions maintain the highest standards of academic excellence.",
+    "t3": "Our partnerships with prestigious institutions worldwide enable us to foster innovation in educational methodologies and promote cross-cultural understanding. We facilitate the exchange of knowledge and best practices, creating a more interconnected and dynamic educational landscape.",
+    "t4": "As a leading authority in international education, we provide guidance and support to institutions seeking to enhance their global presence. Our quality benchmarks and evaluation processes help maintain Canada's position as a premier destination for international education.",
+    "t5": "Together with our partners, we are building a more inclusive and accessible educational ecosystem that transcends traditional boundaries. Our commitment to excellence and innovation continues to drive positive change in educational systems worldwide."
+  },
+  "Footer": {
+    "t1": "Canada IECB",
+    "t2": "Main",
+    "t3": "About",
+    "t4": "Resources",
+    "t5": "Follow us",
+    "t6": "Canada",
+    "t7": "Québec",
+    "t8": "Legal",
+    "t9": "Privacy Policy",
+    "t10": "Terms & Conditions",
+    "t11": "Canada IECB™",
+    "t12": ". All Rights Reserved."
+  },
+  "HomeBanner": {
+
+  },
+  "HomeList": {
+    "t1": "About IECB",
+    "t2": "We specialize in coordinating international educational initiatives and developing innovative programs across Canada. Our organization provides strategic support to strengthen educational partnerships and enhance global academic collaboration.",
+    "t3": "Quality Assurance",
+    "t4": "Through comprehensive monitoring and evaluation processes, we maintain the highest standards in international education. Our team works with experienced educators to ensure all programs meet Canadian and global quality benchmarks.",
+    "t5": "Global Educational Network",
+    "t6": "We connect Canadian educational institutions with international partners through strategic collaborations and exchange programs. Our network creates opportunities for knowledge sharing and cross-cultural learning worldwide.",
+    "t7": "Educational Innovation Center",
+    "t8": "We drive educational advancement through modern technologies and innovative teaching approaches. Our center develops forward-thinking solutions and programs to keep Canadian education at the forefront of global excellence."
+  },
+  "MainContent": {
+    "t1": "Most requested",
+    "t2": "About",
+    "t3": "Resources",
+    "t4": "Canada",
+    "t5": "Jobs",
+    "t6": "Health",
+    "t7": "Taxes",
+    "t8": "Money and finances",
+    "t9": "Business and industry"
+  },
+  "MainOtherContent": {
+    "t1": "As a premier semi-governmental organization, the Canadian International Education Bureau (CIEB) stands at the forefront of international education advancement in Canada. We serve as a vital bridge between Canadian educational excellence and global opportunities, fostering meaningful connections that transcend borders and cultures."
+  },
+  "Nav": {
+    "t1": "Canada IECB",
+    "t2": "Home",
+    "t3": "About",
+    "t4": "Français",
+    "t5": "/fr"
+  },
+  "Partners": {
+    "t1": "Our Partners",
+    "t2": "University of Toronto",
+    "t3": "University of British Columbia",
+    "t4": "McGill University",
+    "t5": "University of Alberta"
   }
 }

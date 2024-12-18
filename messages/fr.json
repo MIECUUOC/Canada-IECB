@@ -3,6 +3,104 @@
     "title": "Bienvenue sur notre site"
   },
   "about": {
-    "title": "À propos de notre entreprise"
+    "mission": {
+      "title": "Notre mission et nos valeurs",
+      "content1": "Le Bureau canadien de l'éducation internationale (BCEI) se consacre à l'amélioration de la qualité et de l'accessibilité de l'éducation internationale. Nous travaillons sans relâche pour créer des liens significatifs entre les établissements d'enseignement du monde entier.",
+      "content2": "Grâce à notre approche globale du développement de l'éducation et de l'assurance qualité, nous contribuons à façonner l'avenir de l'éducation mondiale tout en maintenant la position du Canada en tant que leader de l'éducation internationale.",
+      "values": "Valeurs fondamentales",
+      "value1": "Excellence des normes éducatives",
+      "value2": "Collaboration internationale",
+      "value3": "Innovation en éducation"
+    },
+    "history": {
+      "title": "Notre parcours",
+      "phase1": {
+        "year": "2016",
+        "content": "Établi en tant qu'organisation semi-gouvernementale pour promouvoir la collaboration éducative internationale."
+      },
+      "phase2": {
+        "year": "2018",
+        "content": "Extension de notre portée pour inclure des programmes complets d'assurance qualité et des initiatives d'innovation éducative."
+      },
+      "phase3": {
+        "year": "2020",
+        "content": "Lancement de programmes de partenariat mondial et d'initiatives de transformation numérique pour améliorer l'accessibilité de l'éducation internationale."
+      }
+    },
+    "team": {
+      "title": "Direction",
+      "role1": "Développement éducatif",
+      "desc1": "Diriger des initiatives pour améliorer les normes éducatives et développer des programmes innovants.",
+      "role2": "Relations internationales",
+      "desc2": "Établir et maintenir des relations avec des établissements d'enseignement du monde entier.",
+      "role3": "Assurance qualité",
+      "desc3": "Assurer les plus hauts standards dans les programmes d'éducation internationale."
+    }
+  },
+  "Banner": {
+    "t1": "Canada IECB",
+    "t2": "Bureau canadien de l'éducation internationale"
+  },
+  "EducationalImpact": {
+    "t1": "Faire progresser l'éducation mondiale",
+    "t2": "Le Bureau canadien de l'éducation internationale joue un rôle central dans l'élaboration de l'avenir de l'éducation mondiale. Grâce à nos systèmes de surveillance complets et à nos cadres d'assurance qualité, nous veillons à ce que les établissements d'enseignement maintiennent les plus hauts standards d'excellence académique.",
+    "t3": "Nos partenariats avec des institutions prestigieuses du monde entier nous permettent de favoriser l'innovation dans les méthodologies éducatives et de promouvoir la compréhension interculturelle. Nous facilitons l'échange de connaissances et de meilleures pratiques, créant un paysage éducatif plus interconnecté et dynamique.",
+    "t4": "En tant qu'autorité de premier plan en matière d'éducation internationale, nous fournissons des conseils et un soutien aux institutions qui cherchent à renforcer leur présence mondiale. Nos critères de qualité et nos processus d'évaluation contribuent à maintenir la position du Canada comme destination privilégiée pour l'éducation internationale.",
+    "t5": "Avec nos partenaires, nous construisons un écosystème éducatif plus inclusif et accessible qui transcende les frontières traditionnelles. Notre engagement envers l'excellence et l'innovation continue de stimuler des changements positifs dans les systèmes éducatifs du monde entier."
+  },
+  "Footer": {
+    "t1": "Canada IECB",
+    "t2": "Principal",
+    "t3": "À propos",
+    "t4": "Ressources",
+    "t5": "Suivez-nous",
+    "t6": "Canada",
+    "t7": "Québec",
+    "t8": "Légal",
+    "t9": "Politique de confidentialité",
+    "t10": "Conditions générales",
+    "t11": "Canada IECB™",
+    "t12": ". Tous droits réservés."
+  },
+  "HomeBanner": {
+
+  },
+  "HomeList": {
+    "t1": "À propos de l'IECB",
+    "t2": "Nous nous spécialisons dans la coordination d'initiatives éducatives internationales et le développement de programmes innovants à travers le Canada. Notre organisation fournit un soutien stratégique pour renforcer les partenariats éducatifs et améliorer la collaboration académique mondiale.",
+    "t3": "Assurance qualité",
+    "t4": "Grâce à des processus complets de surveillance et d'évaluation, nous maintenons les plus hauts standards en matière d'éducation internationale. Notre équipe travaille avec des éducateurs expérimentés pour garantir que tous les programmes répondent aux critères de qualité canadiens et mondiaux.",
+    "t5": "Réseau éducatif mondial",
+    "t6": "Nous connectons les établissements d'enseignement canadiens avec des partenaires internationaux grâce à des collaborations stratégiques et des programmes d'échange. Notre réseau crée des opportunités de partage des connaissances et d'apprentissage interculturel dans le monde entier.",
+    "t7": "Centre d'innovation éducative",
+    "t8": "Nous stimulons l'avancement de l'éducation grâce aux technologies modernes et aux approches pédagogiques innovantes. Notre centre développe des solutions et des programmes avant-gardistes pour maintenir l'éducation canadienne à l'avant-garde de l'excellence mondiale."
+  },
+  "MainContent": {
+    "t1": "Les plus demandés",
+    "t2": "À propos",
+    "t3": "Ressources",
+    "t4": "Canada",
+    "t5": "Emplois",
+    "t6": "Santé",
+    "t7": "Impôts",
+    "t8": "Argent et finances",
+    "t9": "Entreprises et industrie"
+  },
+  "MainOtherContent": {
+    "t1": "En tant qu'organisation semi-gouvernementale de premier plan, le Bureau canadien de l'éducation internationale (BCEI) est à l'avant-garde de l'avancement de l'éducation internationale au Canada. Nous servons de pont essentiel entre l'excellence éducative canadienne et les opportunités mondiales, favorisant des connexions significatives qui transcendent les frontières et les cultures."
+  },
+  "Nav": {
+    "t1": "Canada IECB",
+    "t2": "Accueil",
+    "t3": "À propos",
+    "t4": "English",
+    "t5": "/en"
+  },
+  "Partners": {
+    "t1": "Nos partenaires",
+    "t2": "Université de Toronto",
+    "t3": "Université de la Colombie-Britannique",
+    "t4": "Université McGill",
+    "t5": "Université de l'Alberta"
   }
 }
