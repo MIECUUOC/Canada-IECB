@@ -3,11 +3,12 @@ import {Metadata} from "next";
 import Banner from "@/components/banner";
 import MainContent from "@/components/mainContent";
 import MainOtherContent from "@/components/mainOtherContent";
-import HomeBanner from "@/components/homeBanner";
 import HomeList from "@/components/homeList";
+import Partners from "@/components/partners";
+import EducationalImpact from "@/components/educationalImpact";
 
 export const metadata: Metadata = {
-    title: 'CIEB',
+    title: 'Home - CIEB',
     description: 'Canadian International Education Bureau',
 }
 
@@ -20,6 +21,8 @@ export default function Home() {
           <MainContent />
           <MainOtherContent />
           <HomeList />
+          <Partners />
+          <EducationalImpact />
         {/*<h1 className="text-4xl font-bold">*/}
         {/*  {t('title')}*/}
         {/*</h1>*/}

@@ -1,15 +1,14 @@
 export default function Banner() {
     return (
-        <div className="w-full h-52 bg-white relative">
-            <img className="w-full h-full " src="./bkg.jpg" alt="image"/>
-            <div className="absolute top-6 left-16 md:left-16 lg:left-24 xl:left-32 2xl:left-44 3xl:left-56 bg-gray-800 opacity-80 w-1/2 h-3/4 xx:w-full xx:left-0 xx:mx-1 2xl:right-2/3 xl:mx-0 xl:w-1/2 flex justify-center text-white flex-col">
-                <h1 className="text-4xl font-bold text-white ml-3">
-                    Canada IECB
-                </h1>
-
-                <div className="bg-red-800 w-20 h-2 ml-3 mb-3 mt-1"></div>
-
-                <span className="ml-3 text-xl">Canadian International Education Bureau</span>
+        <div className="w-full h-52 bg-white flex items-center" style={{ backgroundImage: `url(${'./bkg.jpg'})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+            <div className="container mx-auto px-4 md:px-6 lg:px-8 xl:px-24">
+                <div className="bg-gray-800/80 py-6 h-3/4 w-full md:w-2/5 flex justify-center text-white flex-col">
+                    <h1 className="text-4xl font-bold text-white ml-3">
+                        Canada IECB
+                    </h1>
+                    <div className="bg-red-800 w-20 h-2 ml-3 mb-3 mt-1"></div>
+                    <span className="ml-3 text-xl">Canadian International Education Bureau</span>
+                </div>
             </div>
         </div>
     )
