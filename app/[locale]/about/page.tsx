@@ -1,9 +1,22 @@
-'use client';
-
 import { useTranslations } from 'next-intl';
 import Banner from "@/components/banner";
+import { setRequestLocale } from 'next-intl/server';
+import {Metadata} from "next";
 
-export default function About() {
+type Props = {
+    params: {
+        locale: string;
+    };
+};
+
+
+export const metadata: Metadata = {
+    title: 'About - CIEB',
+    description: 'Canadian International Education Bureau',
+}
+
+export default async function About({ params: { locale } }: Props) {
+    setRequestLocale(locale);
     const t = useTranslations('about');
 
     return (
