@@ -105,5 +105,12 @@
     "t3": "University of British Columbia",
     "t4": "McGill University",
     "t5": "University of Alberta"
+  },
+  "Programs": {
+    "t1": "Key Educational Programs",
+    "t2": "Quality Assurance Framework",
+    "t3": "International Exchange Program",
+    "t4": "Educational Innovation Hub",
+    "t5": "Research & Development"
   }
 }

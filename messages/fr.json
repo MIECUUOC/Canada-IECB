@@ -104,5 +104,12 @@
     "t3": "Université de la Colombie-Britannique",
     "t4": "Université McGill",
     "t5": "Université de l'Alberta"
+  },
+  "Programs": {
+    "t1": "Programmes éducatifs clés",
+    "t2": "Cadre d'assurance qualité",
+    "t3": "Programme d'échange international",
+    "t4": "Centre d'innovation éducative",
+    "t5": "Recherche et développement"
   }
 }

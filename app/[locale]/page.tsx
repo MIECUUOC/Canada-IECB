@@ -3,9 +3,9 @@ import Banner from "@/components/banner";
 import MainContent from "@/components/mainContent";
 import MainOtherContent from "@/components/mainOtherContent";
 import HomeList from "@/components/homeList";
-import Partners from "@/components/partners";
 import EducationalImpact from "@/components/educationalImpact";
 import { setRequestLocale } from 'next-intl/server';
+import Programs from "@/components/programs";
 
 export const metadata: Metadata = {
     title: 'Home - CIEB',
@@ -27,7 +27,7 @@ export default async function Home({ params: { locale } }: Props) {
             <MainContent />
             <MainOtherContent />
             <HomeList />
-            <Partners />
+            <Programs />
             <EducationalImpact />
         </main>
     );
